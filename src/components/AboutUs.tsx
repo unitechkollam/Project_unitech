@@ -19,7 +19,7 @@ export const AboutUs: React.FC = () => {
 
             {/* Required Primary Statement */}
             <p className="text-base sm:text-lg font-semibold text-slate-800 dark:text-slate-100 leading-relaxed mb-4">
-              UNITECH has more than 7+ years of experience supplying dealers, technicians, plant installers and shops.
+              UNITECH has more than 9+ years of experience supplying dealers, technicians, plant installers and shops.
             </p>
 
             {/* Authentic Brand Story */}

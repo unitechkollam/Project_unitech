@@ -12,7 +12,7 @@ export const CustomersSection: React.FC = () => {
             Proven Trade Reputation
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0B3C6F] dark:text-white font-heading tracking-tight">
-            Trusted by 100+ Customers Across Kerala
+            Trusted by 300+ Customers Across Kerala
           </h2>
           <p className="mt-3 text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed">
             Supplying water technicians, commercial RO plant contractors, regional dealers, and hardware shops with dependable quality and honest trade partnership.
@@ -139,7 +139,7 @@ export const CustomersSection: React.FC = () => {
                   and more...
                 </span>
                 <span className="text-[11px] text-slate-500 dark:text-slate-400 mt-1 font-medium">
-                  100+ Customers Across Kerala
+                  300+ Customers Across Kerala
                 </span>
               </div>
             </div>

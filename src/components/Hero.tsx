@@ -164,7 +164,7 @@ export const Hero: React.FC<HeroProps> = ({ onGetWholesalePrice, onRequestQuote 
           </div>
         </div>
 
-        {/* Stats Strip (Exact verified metrics: 7+ years of experience, 100+ customers, 2 locations in Kollam) */}
+        {/* Stats Strip (Verified metrics: 9+ years of experience, 300+ customers, 2 locations in Kollam) */}
         <div className="mt-16 pt-10 border-t border-white/15">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 max-w-4xl mx-auto">
             {/* Stat 1 */}
@@ -173,7 +173,7 @@ export const Hero: React.FC<HeroProps> = ({ onGetWholesalePrice, onRequestQuote 
                 <Award className="w-6 h-6" />
               </div>
               <div>
-                <div className="text-3xl font-bold font-heading text-white tabular-nums">7+</div>
+                <div className="text-3xl font-bold font-heading text-white tabular-nums">9+</div>
                 <div className="text-sm text-cyan-100 font-medium">Years of Experience</div>
               </div>
             </div>
@@ -184,7 +184,7 @@ export const Hero: React.FC<HeroProps> = ({ onGetWholesalePrice, onRequestQuote 
                 <Users className="w-6 h-6" />
               </div>
               <div>
-                <div className="text-3xl font-bold font-heading text-white tabular-nums">100+</div>
+                <div className="text-3xl font-bold font-heading text-white tabular-nums">300+</div>
                 <div className="text-sm text-cyan-100 font-medium">Customers</div>
               </div>
             </div>

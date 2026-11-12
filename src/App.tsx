@@ -81,10 +81,10 @@ export default function App() {
         {/* 4. Why Dealers Choose UNITECH */}
         <WhyDealersChooseUs />
 
-        {/* 5. Our Customers (100+ Customers, Logo Strip) */}
+        {/* 5. Our Customers (300+ Customers, Logo Strip) */}
         <CustomersSection />
 
-        {/* 6. About Us (7+ Years of Experience, Story, Warehouses) */}
+        {/* 6. About Us (9+ Years of Experience, Story, Warehouses) */}
         <AboutUs />
 
         {/* 7. Areas We Serve (Regional Distribution Network across Southern Kerala) */}
