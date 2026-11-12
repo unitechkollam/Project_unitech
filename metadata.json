@@ -1,0 +1,7 @@
+{
+  "name": "UNITECH Water Treatment Equipments",
+  "description": "B2B wholesale distributor of water treatment equipment, filter vessels, multiport valves, filtration media, and RO plant parts in Kollam and Karunagappally, Kerala.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
