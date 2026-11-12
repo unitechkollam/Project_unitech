@@ -1,5 +1,6 @@
 import React from 'react';
 import { Droplet, Warehouse, Wrench, Shield, Image as ImageIcon, MapPin, PhoneCall } from 'lucide-react';
+import { getAssetUrl } from '../utils/assetUrl';
 
 export const AboutUs: React.FC = () => {
   return (
@@ -82,7 +83,7 @@ export const AboutUs: React.FC = () => {
               {/* Warehouse / Showroom Photo */}
               <div className="relative aspect-[16/10] w-full rounded-xl overflow-hidden mb-6 border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-900 shadow-sm group">
                 <img
-                  src="/assets/aistudio/unitech_facilities_showcase.png"
+                  src={getAssetUrl('/assets/aistudio/unitech_facilities_showcase.png')}
                   alt="UNITECH Locations - Decent Jn Kollam Shop and Thazhava Karunagappally Warehouse"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"

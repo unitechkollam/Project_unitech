@@ -1,5 +1,6 @@
 import React from 'react';
 import { Phone, Mail, MapPin, MessageCircle, ArrowUp } from 'lucide-react';
+import { getAssetUrl } from '../utils/assetUrl';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -13,12 +14,12 @@ export const Footer: React.FC = () => {
           {/* Brand & Mission (4 cols) */}
           <div className="lg:col-span-4 space-y-4">
             <a
-              href="/"
+              href="#"
               className="inline-flex items-center justify-start w-fit max-w-[210px] group focus-visible:outline-2 focus-visible:outline-[#00BCD4] rounded-lg"
               aria-label="UNITECH - A Complete Water Treatment Equipments"
             >
               <img
-                src="/assets/aistudio/image_bc9b2d96.png"
+                src={getAssetUrl('/assets/aistudio/image_bc9b2d96.png')}
                 alt="UNITECH - A Complete Water Treatment Equipments"
                 className="w-[170px] sm:w-[195px] h-auto object-contain group-hover:scale-105 transition-transform duration-200 drop-shadow-[0_2px_10px_rgba(255,255,255,0.3)]"
               />

@@ -1,6 +1,7 @@
 import React from 'react';
 import { SUPPLY_ITEMS, SupplyCategory } from '../data/siteContent';
 import { Check, Image as ImageIcon } from 'lucide-react';
+import { getAssetUrl } from '../utils/assetUrl';
 
 interface WhatWeSupplyProps {
   onRequestQuote: (categoryTitle?: string) => void;
@@ -41,7 +42,7 @@ export const WhatWeSupply: React.FC<WhatWeSupplyProps> = ({ onRequestQuote }) =>
                     }`}
                   >
                     <img
-                      src={item.imageUrl}
+                      src={getAssetUrl(item.imageUrl)}
                       alt={item.title}
                       className={`w-full h-full transition-transform duration-300 group-hover:scale-105 ${
                         item.id === 'multiport-valves'

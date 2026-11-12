@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Sun, Moon, Phone, MessageCircle } from 'lucide-react';
+import { getAssetUrl } from '../utils/assetUrl';
 
 interface HeaderProps {
   darkMode: boolean;
@@ -55,12 +56,12 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode, onRequest
         <div className="flex items-center justify-between gap-6 py-1">
           {/* Zone 1: Oval Blended Brand Logo & Tagline */}
           <a
-            href="/"
+            href="#"
             className="flex items-center gap-2 shrink-0 focus-visible:outline-2 focus-visible:outline-[#1565C0] rounded-xl group py-0.5"
             aria-label="UNITECH - A Complete Water Treatment Equipments"
           >
             <img
-              src="/assets/aistudio/image_bc9b2d96.png"
+              src={getAssetUrl('/assets/aistudio/image_bc9b2d96.png')}
               alt="UNITECH - A Complete Water Treatment Equipments"
               className="w-[100px] h-[75px] sm:w-[135px] sm:h-[95px] object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-200"
               style={{

@@ -1,4 +1,5 @@
 import React from 'react';
+import { getAssetUrl } from '../utils/assetUrl';
 
 export const CustomersSection: React.FC = () => {
 
@@ -34,7 +35,7 @@ export const CustomersSection: React.FC = () => {
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80 rounded-xl p-3 flex flex-col items-center justify-center min-h-[115px] shadow-xs hover:border-[#1565C0] dark:hover:border-cyan-400 transition-all duration-200 group">
                 <div className="w-full h-14 flex items-center justify-center bg-white dark:bg-slate-900 rounded-lg px-2 py-1">
                   <img
-                    src="/assets/aistudio/purec_enviro_7348aa6c.png"
+                    src={getAssetUrl('/assets/aistudio/purec_enviro_7348aa6c.png')}
                     alt="PUREC Enviro Solutions"
                     className="max-h-11 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
                   />
@@ -48,7 +49,7 @@ export const CustomersSection: React.FC = () => {
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80 rounded-xl p-3 flex flex-col items-center justify-center min-h-[115px] shadow-xs hover:border-[#1565C0] dark:hover:border-cyan-400 transition-all duration-200 group">
                 <div className="w-full h-14 flex items-center justify-center bg-white dark:bg-slate-900 rounded-lg px-2 py-1">
                   <img
-                    src="/assets/aistudio/aqua-fix-logo-small_022466c5.png"
+                    src={getAssetUrl('/assets/aistudio/aqua-fix-logo-small_022466c5.png')}
                     alt="Aqua Fix Solutions"
                     className="max-h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
                   />
@@ -62,7 +63,7 @@ export const CustomersSection: React.FC = () => {
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80 rounded-xl p-3 flex flex-col items-center justify-center min-h-[115px] shadow-xs hover:border-[#1565C0] dark:hover:border-cyan-400 transition-all duration-200 group">
                 <div className="w-full h-14 flex items-center justify-center bg-white dark:bg-slate-900 rounded-lg px-2 py-1">
                   <img
-                    src="/assets/aistudio/hyox_logo_enhanced-Picsart-AiImageEnhancer_75d2e8d4.png"
+                    src={getAssetUrl('/assets/aistudio/hyox_logo_enhanced-Picsart-AiImageEnhancer_75d2e8d4.png')}
                     alt="Hyox Water Scientists"
                     className="max-h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
                   />
@@ -76,7 +77,7 @@ export const CustomersSection: React.FC = () => {
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80 rounded-xl p-3 flex flex-col items-center justify-center min-h-[115px] shadow-xs hover:border-[#1565C0] dark:hover:border-cyan-400 transition-all duration-200 group">
                 <div className="w-full h-14 flex items-center justify-center bg-white dark:bg-slate-900 rounded-lg px-2 py-1">
                   <img
-                    src="/assets/aistudio/Hydro_Matrix_Water_Engineering_Logo_9bbf01f0.png"
+                    src={getAssetUrl('/assets/aistudio/Hydro_Matrix_Water_Engineering_Logo_9bbf01f0.png')}
                     alt="Hydro Matrix"
                     className="max-h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
                   />
@@ -90,7 +91,7 @@ export const CustomersSection: React.FC = () => {
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80 rounded-xl p-3 flex flex-col items-center justify-center min-h-[115px] shadow-xs hover:border-[#1565C0] dark:hover:border-cyan-400 transition-all duration-200 group">
                 <div className="w-full h-14 flex items-center justify-center bg-white dark:bg-slate-900 rounded-lg px-2 py-1">
                   <img
-                    src="/assets/aistudio/royal_aqua_fae47b1a.png"
+                    src={getAssetUrl('/assets/aistudio/royal_aqua_fae47b1a.png')}
                     alt="Royal Aqua Engineers"
                     className="max-h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
                   />
@@ -104,7 +105,7 @@ export const CustomersSection: React.FC = () => {
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80 rounded-xl p-3 flex flex-col items-center justify-center min-h-[115px] shadow-xs hover:border-[#1565C0] dark:hover:border-cyan-400 transition-all duration-200 group">
                 <div className="w-full h-14 flex items-center justify-center bg-white dark:bg-slate-900 rounded-lg px-2 py-1">
                   <img
-                    src="/assets/aistudio/H2O_SOLUTIONS_c03236d2.png"
+                    src={getAssetUrl('/assets/aistudio/H2O_SOLUTIONS_c03236d2.png')}
                     alt="H2O Solutions"
                     className="max-h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
                   />
