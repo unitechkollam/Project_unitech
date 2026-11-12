@@ -1,0 +1,10 @@
+# ==============================================================================
+# UNITECH Robots.txt
+# Planned Domain: https://unitechkerala.in
+# Note: Update this domain if deploying to a different custom domain.
+# ==============================================================================
+
+User-agent: *
+Allow: /
+
+Sitemap: https://unitechkerala.in/sitemap.xml

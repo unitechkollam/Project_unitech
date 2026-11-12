@@ -45,12 +45,12 @@ export const Hero: React.FC<HeroProps> = ({ onGetWholesalePrice, onRequestQuote 
 
             {/* Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] font-bold tracking-tight text-white font-heading leading-tight md:leading-[1.15] mb-6 text-balance">
-              Your wholesale partner for <span className="text-[#00BCD4]">clean water</span>
+              Wholesale Water Treatment Equipment &amp; RO Spares in <span className="text-[#00BCD4]">Kerala</span>
             </h1>
 
             {/* Short Subtext */}
             <p className="text-base sm:text-lg text-slate-100/90 max-w-2xl mx-auto lg:mx-0 leading-relaxed mb-8">
-              Supplying trusted B2B trade dealers, water technicians, RO plant installers, and retail shops across Kerala with verified bulk inventory, manufacturer-backed warranties, and direct dealer pricing.
+              Supplying trusted B2B trade dealers, water technicians, RO plant installers, and retail shops across Kerala with verified bulk inventory and direct dealer pricing.
             </p>
 
             {/* Key Trust Checkmarks */}
@@ -164,7 +164,7 @@ export const Hero: React.FC<HeroProps> = ({ onGetWholesalePrice, onRequestQuote 
           </div>
         </div>
 
-        {/* Stats Strip (Exact metrics specified: 9+ years of experience, 300+ happy customers, 2 locations in Kollam) */}
+        {/* Stats Strip (Exact verified metrics: 7+ years of experience, 100+ customers, 2 locations in Kollam) */}
         <div className="mt-16 pt-10 border-t border-white/15">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 max-w-4xl mx-auto">
             {/* Stat 1 */}
@@ -173,7 +173,7 @@ export const Hero: React.FC<HeroProps> = ({ onGetWholesalePrice, onRequestQuote 
                 <Award className="w-6 h-6" />
               </div>
               <div>
-                <div className="text-3xl font-bold font-heading text-white tabular-nums">9+</div>
+                <div className="text-3xl font-bold font-heading text-white tabular-nums">7+</div>
                 <div className="text-sm text-cyan-100 font-medium">Years of Experience</div>
               </div>
             </div>
@@ -184,8 +184,8 @@ export const Hero: React.FC<HeroProps> = ({ onGetWholesalePrice, onRequestQuote 
                 <Users className="w-6 h-6" />
               </div>
               <div>
-                <div className="text-3xl font-bold font-heading text-white tabular-nums">300+</div>
-                <div className="text-sm text-cyan-100 font-medium">Happy Customers</div>
+                <div className="text-3xl font-bold font-heading text-white tabular-nums">100+</div>
+                <div className="text-sm text-cyan-100 font-medium">Customers</div>
               </div>
             </div>
 

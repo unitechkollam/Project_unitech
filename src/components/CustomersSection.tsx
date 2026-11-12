@@ -12,7 +12,7 @@ export const CustomersSection: React.FC = () => {
             Proven Trade Reputation
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0B3C6F] dark:text-white font-heading tracking-tight">
-            Trusted by 300+ Customers Across Kerala
+            Trusted by 100+ Customers Across Kerala
           </h2>
           <p className="mt-3 text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed">
             Supplying water technicians, commercial RO plant contractors, regional dealers, and hardware shops with dependable quality and honest trade partnership.
@@ -35,8 +35,11 @@ export const CustomersSection: React.FC = () => {
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80 rounded-xl p-3 flex flex-col items-center justify-center min-h-[115px] shadow-xs hover:border-[#1565C0] dark:hover:border-cyan-400 transition-all duration-200 group">
                 <div className="w-full h-14 flex items-center justify-center bg-white dark:bg-slate-900 rounded-lg px-2 py-1">
                   <img
-                    src={getAssetUrl('/assets/aistudio/purec_enviro_7348aa6c.png')}
-                    alt="PUREC Enviro Solutions"
+                    src={getAssetUrl('assets/aistudio/purec_enviro_7348aa6c.png')}
+                    alt="PUREC Enviro Solutions - Water Treatment Client"
+                    width={140}
+                    height={44}
+                    loading="lazy"
                     className="max-h-11 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
                   />
                 </div>
@@ -49,8 +52,11 @@ export const CustomersSection: React.FC = () => {
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80 rounded-xl p-3 flex flex-col items-center justify-center min-h-[115px] shadow-xs hover:border-[#1565C0] dark:hover:border-cyan-400 transition-all duration-200 group">
                 <div className="w-full h-14 flex items-center justify-center bg-white dark:bg-slate-900 rounded-lg px-2 py-1">
                   <img
-                    src={getAssetUrl('/assets/aistudio/aqua-fix-logo-small_022466c5.png')}
-                    alt="Aqua Fix Solutions"
+                    src={getAssetUrl('assets/aistudio/aqua-fix-logo-small_022466c5.png')}
+                    alt="Aqua Fix Solutions - Water Treatment Partner"
+                    width={140}
+                    height={44}
+                    loading="lazy"
                     className="max-h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
                   />
                 </div>
@@ -63,8 +69,11 @@ export const CustomersSection: React.FC = () => {
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80 rounded-xl p-3 flex flex-col items-center justify-center min-h-[115px] shadow-xs hover:border-[#1565C0] dark:hover:border-cyan-400 transition-all duration-200 group">
                 <div className="w-full h-14 flex items-center justify-center bg-white dark:bg-slate-900 rounded-lg px-2 py-1">
                   <img
-                    src={getAssetUrl('/assets/aistudio/hyox_logo_enhanced-Picsart-AiImageEnhancer_75d2e8d4.png')}
-                    alt="Hyox Water Scientists"
+                    src={getAssetUrl('assets/aistudio/hyox_logo_enhanced-Picsart-AiImageEnhancer_75d2e8d4.png')}
+                    alt="Hyox Water Scientists - Client Partner"
+                    width={140}
+                    height={44}
+                    loading="lazy"
                     className="max-h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
                   />
                 </div>
@@ -77,8 +86,11 @@ export const CustomersSection: React.FC = () => {
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80 rounded-xl p-3 flex flex-col items-center justify-center min-h-[115px] shadow-xs hover:border-[#1565C0] dark:hover:border-cyan-400 transition-all duration-200 group">
                 <div className="w-full h-14 flex items-center justify-center bg-white dark:bg-slate-900 rounded-lg px-2 py-1">
                   <img
-                    src={getAssetUrl('/assets/aistudio/Hydro_Matrix_Water_Engineering_Logo_9bbf01f0.png')}
-                    alt="Hydro Matrix"
+                    src={getAssetUrl('assets/aistudio/Hydro_Matrix_Water_Engineering_Logo_9bbf01f0.png')}
+                    alt="Hydro Matrix Water Resource Engineering - Client"
+                    width={140}
+                    height={44}
+                    loading="lazy"
                     className="max-h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
                   />
                 </div>
@@ -91,8 +103,11 @@ export const CustomersSection: React.FC = () => {
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80 rounded-xl p-3 flex flex-col items-center justify-center min-h-[115px] shadow-xs hover:border-[#1565C0] dark:hover:border-cyan-400 transition-all duration-200 group">
                 <div className="w-full h-14 flex items-center justify-center bg-white dark:bg-slate-900 rounded-lg px-2 py-1">
                   <img
-                    src={getAssetUrl('/assets/aistudio/royal_aqua_fae47b1a.png')}
-                    alt="Royal Aqua Engineers"
+                    src={getAssetUrl('assets/aistudio/royal_aqua_fae47b1a.png')}
+                    alt="Royal Aqua Engineers - Water Treatment Solutions Partner"
+                    width={140}
+                    height={44}
+                    loading="lazy"
                     className="max-h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
                   />
                 </div>
@@ -105,8 +120,11 @@ export const CustomersSection: React.FC = () => {
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80 rounded-xl p-3 flex flex-col items-center justify-center min-h-[115px] shadow-xs hover:border-[#1565C0] dark:hover:border-cyan-400 transition-all duration-200 group">
                 <div className="w-full h-14 flex items-center justify-center bg-white dark:bg-slate-900 rounded-lg px-2 py-1">
                   <img
-                    src={getAssetUrl('/assets/aistudio/H2O_SOLUTIONS_c03236d2.png')}
-                    alt="H2O Solutions"
+                    src={getAssetUrl('assets/aistudio/H2O_SOLUTIONS_c03236d2.png')}
+                    alt="H2O Solutions - Water Treatment Client"
+                    width={140}
+                    height={44}
+                    loading="lazy"
                     className="max-h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
                   />
                 </div>
@@ -121,7 +139,7 @@ export const CustomersSection: React.FC = () => {
                   and more...
                 </span>
                 <span className="text-[11px] text-slate-500 dark:text-slate-400 mt-1 font-medium">
-                  300+ Partners Across Kerala
+                  100+ Customers Across Kerala
                 </span>
               </div>
             </div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Sun, Moon, Phone, MessageCircle } from 'lucide-react';
+import { Menu, X, Sun, Moon, Phone, MessageCircle, Instagram, Facebook } from 'lucide-react';
 import { getAssetUrl } from '../utils/assetUrl';
 
 interface HeaderProps {
@@ -16,6 +16,7 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode, onRequest
     { label: 'Why UNITECH', href: '#why-unitech' },
     { label: 'Our Customers', href: '#customers' },
     { label: 'About Us', href: '#about-us' },
+    { label: 'Areas We Serve', href: '#areas-we-serve' },
     { label: 'Locations & Contact', href: '#contact' },
   ];
 
@@ -29,7 +30,7 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode, onRequest
             <span className="hidden sm:inline text-white/40">|</span>
             <span className="hidden sm:inline">Chandra Complex, Decent Jn &amp; Thazhava</span>
           </div>
-          <div className="flex items-center gap-3 text-xs">
+          <div className="flex items-center gap-2.5 sm:gap-3 text-xs">
             <a
               href="tel:+918138048474"
               className="flex items-center gap-1 hover:text-[#00BCD4] transition-colors font-medium whitespace-nowrap"
@@ -47,6 +48,30 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode, onRequest
               <MessageCircle className="w-3 h-3 text-[#2E7D32]" />
               <span>WhatsApp</span>
             </a>
+            <span className="text-white/40">·</span>
+            <a
+              href="https://www.instagram.com/unitech_water/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 text-pink-300 hover:text-white transition-colors"
+              aria-label="UNITECH Instagram"
+              title="Follow @unitech_water on Instagram"
+            >
+              <Instagram className="w-3.5 h-3.5 text-pink-400" />
+              <span className="hidden md:inline text-[11px] font-medium">Insta</span>
+            </a>
+            <span className="text-white/40">·</span>
+            <a
+              href="https://www.facebook.com/unitechkerala/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 text-sky-300 hover:text-white transition-colors"
+              aria-label="UNITECH Facebook"
+              title="Follow unitechkerala on Facebook"
+            >
+              <Facebook className="w-3.5 h-3.5 text-sky-400" />
+              <span className="hidden md:inline text-[11px] font-medium">FB</span>
+            </a>
           </div>
         </div>
       </div>
@@ -61,8 +86,10 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode, onRequest
             aria-label="UNITECH - A Complete Water Treatment Equipments"
           >
             <img
-              src={getAssetUrl('/assets/aistudio/image_bc9b2d96.png')}
-              alt="UNITECH - A Complete Water Treatment Equipments"
+              src={getAssetUrl('assets/aistudio/image_bc9b2d96.png')}
+              alt="UNITECH - A Complete Water Treatment Equipments Logo"
+              width={135}
+              height={95}
               className="w-[100px] h-[75px] sm:w-[135px] sm:h-[95px] object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-200"
               style={{
                 maskImage: 'radial-gradient(ellipse at center, #000 72%, transparent 100%)',
@@ -94,7 +121,7 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode, onRequest
             <button
               onClick={() => setDarkMode((prev) => !prev)}
               type="button"
-              className="p-2 text-slate-600 hover:text-[#0B3C6F] hover:bg-slate-200/70 rounded-lg transition-colors focus-visible:outline-2 focus-visible:outline-[#1565C0]"
+              className="p-2 min-h-[44px] min-w-[44px] flex items-center justify-center text-slate-600 hover:text-[#0B3C6F] hover:bg-slate-200/70 rounded-lg transition-colors focus-visible:outline-2 focus-visible:outline-[#1565C0] cursor-pointer"
               aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
             >
               {darkMode ? <Sun className="w-5 h-5 text-amber-500" /> : <Moon className="w-5 h-5" />}
@@ -104,7 +131,7 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode, onRequest
             <button
               onClick={() => onRequestQuote()}
               type="button"
-              className="bg-[#FF8F00] text-[#0B3C6F] hover:bg-[#FFA000] active:bg-[#F57C00] font-semibold text-sm px-4 sm:px-5 py-2.5 rounded-lg shadow-sm hover:shadow transition-all whitespace-nowrap shrink-0 cursor-pointer focus-visible:outline-2 focus-visible:outline-[#FF8F00]"
+              className="bg-[#FF8F00] text-[#0B3C6F] hover:bg-[#FFA000] active:bg-[#F57C00] font-semibold text-sm px-4 sm:px-5 py-2.5 min-h-[44px] flex items-center justify-center rounded-lg shadow-sm hover:shadow transition-all whitespace-nowrap shrink-0 cursor-pointer focus-visible:outline-2 focus-visible:outline-[#FF8F00]"
             >
               Request Quote
             </button>
@@ -113,7 +140,7 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode, onRequest
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               type="button"
-              className="lg:hidden p-2 text-slate-700 hover:bg-slate-200/70 rounded-lg focus-visible:outline-2 focus-visible:outline-[#1565C0]"
+              className="lg:hidden p-2 min-h-[44px] min-w-[44px] flex items-center justify-center text-slate-700 hover:bg-slate-200/70 rounded-lg focus-visible:outline-2 focus-visible:outline-[#1565C0] cursor-pointer"
               aria-label="Toggle navigation menu"
               aria-expanded={mobileMenuOpen}
             >
@@ -154,6 +181,26 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode, onRequest
                 <Phone className="w-4 h-4 text-[#00BCD4]" />
                 <span>Call Kollam Office: +91 8138048474</span>
               </a>
+              <div className="grid grid-cols-2 gap-2 pt-1">
+                <a
+                  href="https://www.instagram.com/unitech_water/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-pink-500/10 text-pink-700 dark:text-pink-400 py-2.5 px-3 rounded-lg text-xs font-semibold hover:bg-pink-500/20 transition-colors"
+                >
+                  <Instagram className="w-4 h-4 text-pink-600 dark:text-pink-400" />
+                  <span>Instagram</span>
+                </a>
+                <a
+                  href="https://www.facebook.com/unitechkerala/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-blue-500/10 text-[#1877F2] dark:text-blue-400 py-2.5 px-3 rounded-lg text-xs font-semibold hover:bg-blue-500/20 transition-colors"
+                >
+                  <Facebook className="w-4 h-4 text-[#1877F2]" />
+                  <span>Facebook</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>

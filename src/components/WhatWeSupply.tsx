@@ -43,7 +43,9 @@ export const WhatWeSupply: React.FC<WhatWeSupplyProps> = ({ onRequestQuote }) =>
                   >
                     <img
                       src={getAssetUrl(item.imageUrl)}
-                      alt={item.title}
+                      alt={`${item.title} - Wholesale Water Treatment Equipment Kerala`}
+                      width={400}
+                      height={208}
                       className={`w-full h-full transition-transform duration-300 group-hover:scale-105 ${
                         item.id === 'multiport-valves'
                           ? 'object-contain mix-blend-multiply scale-115'

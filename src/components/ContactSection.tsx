@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CONTACT_INFO } from '../data/siteContent';
-import { Phone, Mail, MapPin, Send, MessageSquare, CheckCircle, Navigation, ExternalLink, AlertCircle } from 'lucide-react';
+import { Phone, Mail, MapPin, Send, MessageSquare, CheckCircle, Navigation, ExternalLink, AlertCircle, Instagram, Facebook } from 'lucide-react';
 
 interface ContactSectionProps {
   prefilledItem?: string;
@@ -281,10 +281,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ prefilledItem })
                 <div className="flex items-start justify-between gap-3 mb-2">
                   <div>
                     <h4 className="text-base font-bold text-[#0B3C6F] dark:text-white font-heading">
-                      Kollam Shop (Counter Sales &amp; Pickup)
+                      UNITECH Kollam Shop (Counter Sales &amp; Pickup)
                     </h4>
                     <p className="text-xs text-slate-500 dark:text-slate-400">
-                      Chandra Complex, Decent Jn, Kollam, Kerala
+                      Chandra Complex, Decent Jn, Kollam, Kerala, India
                     </p>
                   </div>
                   <span className="text-[11px] font-semibold px-2 py-0.5 rounded bg-blue-100 text-[#0B3C6F] dark:bg-blue-900/50 dark:text-cyan-300 shrink-0">
@@ -340,10 +340,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ prefilledItem })
                 <div className="flex items-start justify-between gap-3 mb-2">
                   <div>
                     <h4 className="text-base font-bold text-[#0B3C6F] dark:text-white font-heading">
-                      Office &amp; Central Warehouse
+                      UNITECH Office &amp; Central Warehouse
                     </h4>
                     <p className="text-xs text-slate-500 dark:text-slate-400">
-                      Thazhava, Karunagappally, Kollam, Kerala
+                      Thazhava, Karunagappally, Kollam, Kerala, India
                     </p>
                   </div>
                   <span className="text-[11px] font-semibold px-2 py-0.5 rounded bg-emerald-100 text-[#2E7D32] dark:bg-emerald-900/50 dark:text-emerald-300 shrink-0">
@@ -365,8 +365,14 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ prefilledItem })
 
                   <div className="flex items-center justify-between pt-1">
                     <div className="flex items-center gap-2">
-                      <MapPin className="w-3.5 h-3.5 text-[#2E7D32] dark:text-emerald-400 shrink-0" />
-                      <span>Truck loading &amp; warehouse pickup</span>
+                      <Mail className="w-3.5 h-3.5 text-[#2E7D32] dark:text-emerald-400 shrink-0" />
+                      <span>Email: </span>
+                      <a
+                        href="mailto:unitechkollam@gmail.com"
+                        className="font-medium text-[#2E7D32] dark:text-emerald-400 hover:underline"
+                      >
+                        unitechkollam@gmail.com
+                      </a>
                     </div>
                     <a
                       href="https://maps.app.goo.gl/8KpTnpYyNBrcqy7R8"
@@ -447,6 +453,40 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ prefilledItem })
                 >
                   <span>Open in Google Maps App</span>
                   <ExternalLink className="w-3 h-3" />
+                </a>
+              </div>
+            </div>
+
+            {/* Social Media Follow Card */}
+            <div className="bg-[#F3F7FA] dark:bg-[#0B1E38] rounded-xl p-4 border border-slate-200/80 dark:border-slate-800 shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div>
+                <span className="text-xs font-bold uppercase tracking-wider text-[#0B3C6F] dark:text-cyan-300 block">
+                  Follow Our Social Updates
+                </span>
+                <p className="text-xs text-slate-600 dark:text-slate-300 mt-0.5">
+                  Fresh stock deliveries, customer installations &amp; trade notices.
+                </p>
+              </div>
+              <div className="flex items-center gap-2 shrink-0">
+                <a
+                  href="https://www.instagram.com/unitech_water/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-white dark:bg-slate-900 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 text-slate-700 dark:text-slate-200 hover:text-white border border-slate-200 dark:border-slate-700 text-xs font-semibold shadow-xs transition-all group"
+                  aria-label="Follow UNITECH on Instagram"
+                >
+                  <Instagram className="w-4 h-4 text-pink-600 group-hover:text-white transition-colors" />
+                  <span>Instagram</span>
+                </a>
+                <a
+                  href="https://www.facebook.com/unitechkerala/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-white dark:bg-slate-900 hover:bg-[#1877F2] text-slate-700 dark:text-slate-200 hover:text-white border border-slate-200 dark:border-slate-700 text-xs font-semibold shadow-xs transition-all group"
+                  aria-label="Follow UNITECH on Facebook"
+                >
+                  <Facebook className="w-4 h-4 text-[#1877F2] group-hover:text-white transition-colors" />
+                  <span>Facebook</span>
                 </a>
               </div>
             </div>

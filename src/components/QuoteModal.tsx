@@ -60,7 +60,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({ isOpen, onClose, initial
         <button
           onClick={onClose}
           type="button"
-          className="absolute top-5 right-5 text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 p-1 rounded-lg"
+          className="absolute top-4 right-4 text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 p-2 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg cursor-pointer"
           aria-label="Close dialog"
         >
           <X className="w-5 h-5" />

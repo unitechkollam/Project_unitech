@@ -19,7 +19,7 @@ export const AboutUs: React.FC = () => {
 
             {/* Required Primary Statement */}
             <p className="text-base sm:text-lg font-semibold text-slate-800 dark:text-slate-100 leading-relaxed mb-4">
-              UNITECH has more than 9+ years of experience supplying dealers, technicians, plant installers and shops.
+              UNITECH has more than 7+ years of experience supplying dealers, technicians, plant installers and shops.
             </p>
 
             {/* Authentic Brand Story */}
@@ -83,8 +83,10 @@ export const AboutUs: React.FC = () => {
               {/* Warehouse / Showroom Photo */}
               <div className="relative aspect-[16/10] w-full rounded-xl overflow-hidden mb-6 border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-900 shadow-sm group">
                 <img
-                  src={getAssetUrl('/assets/aistudio/unitech_facilities_showcase.png')}
+                  src={getAssetUrl('assets/aistudio/unitech_facilities_showcase.png')}
                   alt="UNITECH Locations - Decent Jn Kollam Shop and Thazhava Karunagappally Warehouse"
+                  width={800}
+                  height={500}
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                 />

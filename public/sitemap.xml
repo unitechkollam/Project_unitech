@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========================================================================== -->
+<!-- UNITECH Sitemap -->
+<!-- Planned Domain: https://unitechkerala.in -->
+<!-- Note: If your live domain changes, update the <loc> URLs below accordingly. -->
+<!-- ========================================================================== -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://unitechkerala.in/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
